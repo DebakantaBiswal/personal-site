@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.internal-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-row: auto;
+    grid-gap: 100px;
+}
+
+.project-image{
+    height: 100px;
+    width: auto;
+}
